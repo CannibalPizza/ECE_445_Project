@@ -1,5 +1,4 @@
 # Love's Worklog
----
 
 ## 02/11/2025 - First Meeting with TA
 This was our first meeting with out TA, Chi Zhang. We were discussing our project proposal and a few notes from the meeting included the following:
