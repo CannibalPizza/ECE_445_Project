@@ -10,9 +10,11 @@ We met with our TA, Chi Zhang to discuss the first draft of our proposal. The ma
 
 # 02/13/2025: Finishing the Proposal
 While I was at work, Love and Romeo went to the machine shop and figured out that Greg could supply us a small door to demo with. Greg also suggested some parts that could work for the door. Once I got home, we used Greg's suggestions and more research to determine the part numbers for our actuator, batteries, motor, and voltage regulators. The new version of our proposal was scaled down to the door Greg provided for us.
+![Image](Block-Diagram-v1.0.png)
 
 # 02/19/2025: Proposal Review
 After presenting our proposal to Professor Gruev, our main take aways were that we needed to research more of the electrical engineering aspects of our project. Since the three of us are computer engineering majors with little electrical engineering experience, we hadn't fully considered how we would drive the motor or how we would step down from 3.6V to 3.3V in our remote. Professor Gruev suggested we use an encoder and H-bridge for the motor and an LDO for the remote.
 
 # 02/24/2025: Block Diagram & Part Updates
 Love and I met to update our block diagram and take into account the recommendations given to us by Professor Gruev. With this, we switched from our LD1117V33 voltage regulator to an AP2112K-3.3TRG1 LDO in the remote and planned our meetings for the next week since we all have midterms.
+![Image](Block-Diagram-v2.0.png)
