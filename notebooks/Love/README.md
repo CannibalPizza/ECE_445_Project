@@ -20,5 +20,5 @@ After the propsoal review, I did some research on the H-bridge motor driver and 
 
 ## 02/25/2025 - Meet-up with Groupmates
 I met up with Romeo and we discussed how the ESP32 will connect with the H-bridge motor driver. We believe that the GPIO pins from the ESP32 should be going to the gates of the mosfets to determine if the motor will spin forward or in the reverse direction. We also looked into how the Bluetooth function of the ESP32 works. Essentially for this, the remote will act as the server while the Door Opener System should be the client which will allow the two to communicate. For the Latch System, we are still thinking if we want the remote to send a signal to it for whether the remote should send a signal to the Door Opener System which then sends a signal to the Latch System. We feel the second way will be easier but the first method might allow for a faster response time. So with that we are still considering what to do. Below is a basic drawing of what our H-bridge will look like:
-![Image](H_bridge_motor_driver_basic.png)
+![Image](H-Bridge_Motor_Driver_Basic.png)
 
