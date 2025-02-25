@@ -1,2 +1,7 @@
 # **Romeo's Worklog**
-## 2/13/2025 - First Meeting With TA
+## 2/11/2025 - First Meeting With TA
+This day included our first meeting with our TA, Chi Zhang. Prior to the meeting, our group began working thoroughly on the project proposal. This included copying over the template for the proposal, and then writing our ideas down.
+
+By the end of our first meeting before talking to the TA, we wrote down the majority of the problem and solution statements, some visual aids about how we wanted our system to work on an actual door, and then bulleted lists briefly touching on system overview and requirements. We also discussed what clarifying questions to ask the TA.
+
+During the TA meeting we explained our project. We want a box mounted on the door frame to contain an ESP32, which would control a motor that would be able to  swing the door open and closed. This would be controlled by a remote that the user can pair to that ESP32 with another ESP32 in the remote. The user would be able to connect to multiple of these door systems, so that they can open/close whatever doors in their house they please. Each door system would also include a battery-powered door handle. This handle would replace the old handle and would contain another ESP32 that can communicate with the door. With this the door would be able to open without the latch preventing the opening. The TA suggested making more quantitative requirements, such as door weight requirements and timing with signals and opening. We were also told to email the professor about how we would go about demoing the door, since we would find it difficult demoing on an actual door.
