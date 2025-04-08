@@ -18,3 +18,22 @@ After presenting our proposal to Professor Gruev, our main take aways were that 
 # 02/24/2025: Block Diagram & Part Updates
 Love and I met to update our block diagram and take into account the recommendations given to us by Professor Gruev. With this, we switched from our LD1117V33 voltage regulator to an AP2112K-3.3TRG1 LDO in the remote and planned our meetings for the next week since we all have midterms.
 ![Image](Block_Diagram_v2.0.png)
+
+# 02/26/2025: PCB Design
+
+# 02/28/2025: PCB Review
+
+# 03/04/2025: TA Meeting
+
+# 03/06/2025: Finishing the Design Doc
+
+# 03/12/2025: Breadboard Demo
+
+# 04/??/2025: PCB Programming
+- Remote Controll's ground was reading 3.3V?
+
+# 04/06/2025: Remote Control PCB Redesign
+- I redesigned the remote control PCB to make hand soldering easier
+
+# 04/08/2025: TA Meeting
+- Can cut into the copper layer of the board to make new connections
