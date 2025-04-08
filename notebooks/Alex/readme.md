@@ -37,3 +37,4 @@ Love and I met to update our block diagram and take into account the recommendat
 
 # 04/08/2025: TA Meeting
 - Can cut into the copper layer of the board to make new connections
+- Picked up SMD components
