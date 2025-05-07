@@ -75,10 +75,17 @@ We were not able to get out project fully working for the mock demo but we demon
 These few days, we worked on getting the project to work. We still need out door PCB to be soldered properly since it was having issues with the voltage regulator heating up reaally quickly once connected to power. During this process we burnout a motor and a door PCB, but thankfully we had more parts to solder another door PCB and get it working. Our Latch and Remote Control were operational and could run simply tests on it. On the 29th, Romeo was able to figure out the Bluetooth connections between the devices so we were able to finally connect all of our parts. He did face a few issues but was able to figure it out at the end.  Romeo finished up the code while I boxed everything up to make it look clean for our final demo.
 
 Door Box:
+
 ![Image](Door.png)
 
 Motor Box:
+
 ![Image](Motor.png)
 
 Latch Box:
+
 ![Image](Latch.png)
+
+Remote Box:
+
+![Image](Remote.png)
