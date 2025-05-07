@@ -3,6 +3,17 @@
 - [02/13/2025: Finishing the Proposal](02/13/2025:-Finishing-the-Proposal)
 - [02/19/2025: Proposal Review](02/19/2025:-Proposal-Review)
 - [02/24/2025: Block Diagram & Part Updates](02/24/2025:-Block-Diagram-&-Part-Updates)
+- [02/28/2025: PCB Review](02/28/2025: PCB Review)
+- [03/04/2025: TA Meeting](03/04/2025: TA Meeting)
+- [03/06/2025: Finishing the Design Doc](03/06/2025: Finishing the Design Doc)
+- [03/11/2025: Breadboard Demo](03/11/2025: Breadboard Demo)
+- [03/12/2025 to 04/05/2025: Soldering Work](03/12/2025 to 04/05/2025: Soldering Work)
+- [04/06/2025: Remote Control PCB Redesign](04/06/2025: Remote Control PCB Redesign)
+- [04/08/2025: TA Meeting](04/08/2025: TA Meeting)
+- [04/09/2025 to 04/21/25: PCB Work](04/09/2025 to 04/21/25: PCB Work)
+- [04/22/2025: Mock Demo](04/22/2025: Mock Demo)
+- [04/23/2025 to 04/29/25: Final Fixes](04/23/2025 to 04/29/25: Final Fixes)
+- [04/30/2025: Final Demo](04/30/2025: Final Demo)
 
 # 02/11/2025: First TA Meeting
 We met with our TA, Chi Zhang to discuss the first draft of our proposal. The main notes we came out of the meeting with was that we need to figure out how to demo our project, we need to quantify all of our requirements, and we need to label the parts on our block diagram. I emailed our assigned professor, Viktor Gruev, and we determined that it was alright to demo using a scaled down model instead of an actual door. For our requirements, Love, Romeo, and I determined quantifiable goals which were mostly latency requirements and operating ranges for the motor. As part of this, we also research and selected specific parts to meet our requirements.
