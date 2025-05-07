@@ -1,5 +1,4 @@
 # Alex's Notebook
----
 - [02/11/2025: First Meeting with TA](02/11/2025:-First-TA-Meeting)
 - [02/13/2025: Finishing the Proposal](02/13/2025:-Finishing-the-Proposal)
 - [02/19/2025: Proposal Review](02/19/2025:-Proposal-Review)
