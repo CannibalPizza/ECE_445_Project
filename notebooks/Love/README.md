@@ -12,6 +12,8 @@ With this information, my group and I discussed these aspects and prepared the p
 ## 02/13/2025 - Talk with Machine Shop
 After emailing the professor regarding our demonstration for the final demo, Romeo and I talked with the Machine Shop to see if they had a door that was scaled down for demonstration purposes. They provided us with a door that will fit well for our project demonstration. We also discussed aspects of which motor to use to help with the Door Opener System and we were suggested a 12V DC gear motor. With this information, my group and I updated our proposal to reflect our scaled down door and determined parts based on that. 
 
+![Image](Door.png)
+
 ## 02/19/2025 - Proposal Review with Professor
 We presented our final proposal in front of the Professor Gruev. In terms of complexity, the professor approved the project but the group was unaware of how we were doing to drive the 12V DC gear motor. Professor Gruev told us to focus on that aspect of the project to ensure we understand what is going on. He also suggested that instead of using a voltage regulator to step down certain voltages, we should look into LDO.
 
@@ -30,6 +32,10 @@ I met up with Romeo to work on the PCB design for our remote control. We discuss
 
 ## 02/27/2025 - Door Latch PCB Design
 I met up with Romeo again to work on our next susbsystem PCB design which is the Door Latch. We were trying to get this one done as well so that Romeo and Alex can attend the PCB review and get feedback on them. The designing did not take long as we followed the block diagram again and this seemed like the simple one out of all the other ones. We needed to figure out how to determine if the lacth was retracted or not so we decided to use an NMOS gate to control that and needed to find one that can take 3.3V for the gate input with a 12V difference between the drain and source. We also added another signal from the latch to the ESP32 so used a voltage regulator to step down the 12V signal to a 3.3V signal. Besides these changes everything else was the same. 
+
+![Image](Latch_Schematic.png)
+
+![Image](Latch_PCB.png)
 
 ## 03/04/2025 - Weekly TA Meeting
 Today we had an exam for a class so we were only able to attend the TA meeting and not work further on the project. During the PCB review, the TA that met with the group mentioned we needed an UART connection in order the program the PCBs so that was the topic of discussion with the TA. We did not discuss much because we did not have any progress on the project or the PCB designs. The TA informed that there may be the USB to UART bridge that we can use to program our ESP32s but wasn;t sure if the lab had anymore left so we talked about that. We discussed alittle bit more about getting parts as well. 
@@ -52,8 +58,27 @@ Romeo and I went to give the machine shop our PCB dimensions and our parts such 
 ## 03/31/2025 - Redesigning the Door PCB
 For the third order PCB, we decided to change the Door subsystem PCB. For the power supply we were using a connector on the PCB but we decided to change it to a power adapter so that we can plug the power supply straight into it. I looked up the footprint for the adapter and re-did the connections on the PCB. There was no other change as everything else seemed to be fine at the moment. We continued with testing the PCBs to see if they were receiving the proper voltages and stuff. 
 
+![Image](Door_Connector_Schematic.png)
+
+![Image](Door_Connector_PCB.png)
+
 ## 04/03/2025-04/17/2025 - Continuing work and testing on PCBs
 In these two weeks, the group continued to work on the testing of the PCBs. We ran into problems with programming and also physical connections on the PCB. The boards were not being programmed since there used to be some problem with the connections to the UART bridge. We tried to rewire our connections and were able to then program the remote control PCB but the latch and door were still giving issues. We talked with the TA and they said that our programming circuit seemed correct so they were not sure what the issue was either. For a few days we had issues with this until eventually we resoldered and tried programming them again, which then worked. I resoldered the latch PCB hoping the connections were just not done right. The remote control PCB was programmed but the test on it was not working. We realized that the ground was reading 3.3V for the ESP32 so we needed to resoldered that one as well. Once the remote and latch were resoldered, we fixed the connections with the UART bridge and were able to program the two PCBs. Both were then tested with their respective tests and they seemed to work fine. The door PCB was giving problems with programming so we are going to resoldered that since it seemed like there may have been some physical connections issue on it. We also placed an order for our latch and remote PCB for the fourth round. The remote just needed to be redesigned so that we can see the values of each part on the PCB to make it easier to solder parts onto it. For the latch, when I had designed it the first time, I made the mistake of having vias on the pads for GPIO strapping of pins GPIO46 and GPIO3, so I had changed that hoping that would solve our issue in terms of why we were not able to program it. But before the fourth order PCBs come in, we were able to program the latch and remote. In the middle of this time frame we had to stop working since we did not have parts to solder so the group decided to place mass order of parts so that we did not have to wait and waste our time until the parts came.
 
 ## 04/15/2025 - Talk with Machine Shop for PCB boxes
 Romeo and I went to the machine shop with our PCBs so that they can order boxes to house our PCBs. We gave them the full details and also told them how many holes we want for each box. The next day I followed up with them since they wanted to see where we wanted the holes on the boxes. I guided them in pointing out how big and where the holes should be. We also told them to make an extra box for the door PCB since we will be demoing with two door systems just by showing that the single remote can operate on both.
+
+## 04/22/2025 - Mock Demo
+We were not able to get out project fully working for the mock demo but we demonstrated the remote control being able to run a simple program and the latch retracting every 5 seconds. The second did not work cause then it started having issues with the PCB heating up but we were able to figure that it had a bad solder joint to the PCB so we fixed that. 
+
+## 04/28/2025-04/30/2025 - Finalizing Product/Final Demo
+These few days, we worked on getting the project to work. We still need out door PCB to be soldered properly since it was having issues with the voltage regulator heating up reaally quickly once connected to power. During this process we burnout a motor and a door PCB, but thankfully we had more parts to solder another door PCB and get it working. Our Latch and Remote Control were operational and could run simply tests on it. On the 29th, Romeo was able to figure out the Bluetooth connections between the devices so we were able to finally connect all of our parts. He did face a few issues but was able to figure it out at the end.  Romeo finished up the code while I boxed everything up to make it look clean for our final demo.
+
+Door Box:
+![Image](Door.png)
+
+Motor Box:
+![Image](Motor.png)
+
+Latch Box:
+![Image](Latch.png)
